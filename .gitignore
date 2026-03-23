@@ -1,1 +1,83 @@
-AutoGen/
+# ============================================================
+#  BAS Firmware — .gitignore
+#  MPLAB X IDE / XC8 Compiler — PIC18F4580
+# ============================================================
+
+# ----------------------------
+# MPLAB X build artefacts
+# ----------------------------
+build/
+dist/
+
+# Dependency and preprocessor output
+*.d
+*.i
+*.p1
+*.pre
+
+# Compiled object and linker output
+*.o
+*.obj
+*.elf
+*.map
+*.sym
+*.lst
+
+# HEX / binary output  (generated — rebuild to get these)
+*.hex
+*.bin
+*.cof
+*.cod
+
+# XC8 intermediate files
+*.cmf
+*.emf
+*.hxl
+*.mum
+
+# ----------------------------
+# MPLAB X project internals
+# ----------------------------
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+
+# Keep these — they define the project
+!nbproject/configurations.xml
+!nbproject/project.xml
+
+# ----------------------------
+# IDE and OS junk
+# ----------------------------
+
+# MPLAB X
+*.mplabws
+*.mchpresult
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.nfs*
+
+# VS Code
+.vscode/
+
+# JetBrains / CLion
+.idea/
+*.iml
+
+# Emacs
+\#*\#
+.\#*
+
