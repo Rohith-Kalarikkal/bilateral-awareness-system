@@ -38,13 +38,14 @@ dist/
 # ----------------------------
 # MPLAB X project internals
 # ----------------------------
-nbproject/private/
-nbproject/Makefile-*.mk
-nbproject/Package-*.bash
+BAS_Firmware.X/nbproject/private/
+BAS_Firmware.X/nbproject/private/
+BAS_Firmware.X/nbproject/Makefile-*
+BAS_Firmware.X/nbproject/Package-*.bash
 
 # Keep these — they define the project
-!nbproject/configurations.xml
-!nbproject/project.xml
+!BAS_Firmware.X/nbproject/configurations.xml
+!BAS_Firmware.X/nbproject/project.xml
 
 # ----------------------------
 # IDE and OS junk
